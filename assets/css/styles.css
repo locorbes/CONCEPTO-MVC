@@ -7,6 +7,40 @@ body {
     display: block;
     height:100%;
 }
+nav{
+    width:100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 15px;
+  overflow: hidden;
+  background-color: #111;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #333;
+}
+
+footer{
+  position:fixed;
+  padding:10px;
+  bottom:0px;
+  width:100%;
+  text-align:center;
+}
 .main{
     display: flex;
     height:100%;
